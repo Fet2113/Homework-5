@@ -39,15 +39,18 @@ public class Main {
         System.out.println("Задание 6");
 
         for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
 
         // Задание 7
         System.out.println("Задание 7");
-
-        for (int i = 2; i <= 512; i = i * 2) {
-            System.out.println(i);
+        int num = 1;
+        System.out.print(num + " ");
+       for (int i = 2; i <= 512; i = i * 2) {
+            System.out.print(i + " ");
         }
+        System.out.println();
 
         // Задание 8
         System.out.println("Задание 8");
@@ -64,10 +67,10 @@ public class Main {
             // Задание 9
             System.out.println("Задание 9");
 
-            int inBox1 = 29000;
-            int total1 = 0;
+            double inBox1 = 29000;
+            double total1 = 0;
             for (int i = 0; i <= 12; i++) {
-                total1 = total1 + total1 / 100;
+                total1 = total1 + total1 / 100 / 12;
                 total1 = total1 + inBox1;
 
                 {
